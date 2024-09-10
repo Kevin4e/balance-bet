@@ -1,3 +1,22 @@
+# Visual Studio files
+.vs/
+*.user
+*.userosscache
+*.suo
+*.suo*
+*.ncb
+*.sdf
+*.opensdf
+*.dbmdl
+*.pdb
+*.opendb
+*.pgm
+*.idb
+*.ilk
+*.log
+*.tmp
+*.tlog
+
 # Prerequisites
 *.d
 
