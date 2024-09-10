@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "balance-bet", "balance-bet.vcxproj", "{00F0C90F-A69F-45D9-97F3-4AB57C676828}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00F0C90F-A69F-45D9-97F3-4AB57C676828}.Debug|x64.ActiveCfg = Debug|x64
+		{00F0C90F-A69F-45D9-97F3-4AB57C676828}.Debug|x64.Build.0 = Debug|x64
+		{00F0C90F-A69F-45D9-97F3-4AB57C676828}.Debug|x86.ActiveCfg = Debug|Win32
+		{00F0C90F-A69F-45D9-97F3-4AB57C676828}.Debug|x86.Build.0 = Debug|Win32
+		{00F0C90F-A69F-45D9-97F3-4AB57C676828}.Release|x64.ActiveCfg = Release|x64
+		{00F0C90F-A69F-45D9-97F3-4AB57C676828}.Release|x64.Build.0 = Release|x64
+		{00F0C90F-A69F-45D9-97F3-4AB57C676828}.Release|x86.ActiveCfg = Release|Win32
+		{00F0C90F-A69F-45D9-97F3-4AB57C676828}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6AFC0B43-A639-4ABD-A595-C886B8230A18}
+	EndGlobalSection
+EndGlobal
