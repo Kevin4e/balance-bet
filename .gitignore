@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+/.vs
+/balance-bet/.vs/balance-bet
+/balance-bet/balance-bet/x64/Debug
+/balance-bet/x64/Debug
