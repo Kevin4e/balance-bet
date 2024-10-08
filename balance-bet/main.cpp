@@ -1,16 +1,15 @@
 #include <iostream>
-#include <cstdlib>
+#include <random>
+#include <chrono>
 #include <ctime>
 
-bool BetWin(unsigned int n) {
-	if (n == 1) {
-		return true;
-	}
-	return false;
+bool BetWin(unsigned int fate) {
+	return fate == 1;
 }
 
 int main() {
-	srand(static_cast<unsigned int>(time(NULL)));
+	std::mt19937 generator(std::chrono::steady_clock::now().time_since_epoch().count());
+	std::uniform_int_distribution<unsigned int> range(0, 1);
 
 	unsigned long long currentBal = 1000;
 
@@ -33,7 +32,7 @@ int main() {
 		}
 		else {
 
-			unsigned int fate = rand() % 2;
+			unsigned int fate = range(generator);
 
 			if (BetWin(fate)) {
 				std::cout << "You won!" << std::endl;
@@ -54,7 +53,8 @@ int main() {
 		std::cout << std::endl;
 	}
 
-	std::cout << "You lost!" << std::endl;
+	std::cout << std::endl;
+	std::cout << "Game over! You lost all your balance!" << std::endl;
 
 	return 0;
 }
